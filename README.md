@@ -33,3 +33,11 @@ to run cypress e2e tests, run:
 ```
 yarn test:e2e
 ```
+
+### Open Cypress
+
+to have a version of cypress running to manually run tests, run:
+
+```
+yarn cypress:open
+```
