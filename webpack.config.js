@@ -20,10 +20,10 @@ module.exports = {
         use: 'ts-loader'
       },
       {
-        test: /\.scss/,
+        test: /\.scss$/,
         use: [
           'style-loader',
-          '@teamsupercell/typings-for-css-modules-loader',
+          'css-modules-typescript-loader',
           {
             loader: 'css-loader',
             options: {
