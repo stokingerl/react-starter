@@ -1,3 +1,4 @@
+const CopyPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
@@ -8,9 +9,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'public/index.html',
       filename: 'index.html',
-      inject: 'head'
+      inject: 'head',
+      favicon: 'public/favicon.ico'
+    }),
+    new CopyPlugin({
+      patterns: [{
+        from: 'public/robots.txt',
+        to: 'robots.txt'
+      }]
     })
   ],
   module: {
