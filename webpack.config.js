@@ -4,6 +4,9 @@ const path = require('path')
 
 module.exports = {
   entry: './src/index.tsx',
+  // for sourcemaps, using devtool is good enough for now
+  // consider upgrading to: https://webpack.js.org/loaders/source-map-loader/
+  devtool: 'source-map',
   output: {
     path: path.join(__dirname, 'dist')
   },
