@@ -34,6 +34,8 @@ to run cypress e2e tests, run:
 yarn test:e2e
 ```
 
+Note: the app must be running locally for cyprus to run appropriately. See Development section
+
 ### Open Cypress
 
 to have a version of cypress running to manually run tests, run:
