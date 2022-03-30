@@ -2,6 +2,16 @@
 
 Simple react app
 
+## Installation
+
+To install necessary dependencies references in `package.json` and `yarn.lock`, run:
+
+```
+yarn
+```
+
+Note: be sure to have `yarn` installed globally on your machine
+
 ## Development
 
 To run the app for development in watch mode, run:
