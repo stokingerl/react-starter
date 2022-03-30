@@ -53,3 +53,7 @@ to have a version of cypress running to manually run tests, run:
 ```
 yarn cypress:open
 ```
+
+## Favicon
+
+Favicon generated via [Favicon.io](https://favicon.io)
